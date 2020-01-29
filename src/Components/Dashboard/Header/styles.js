@@ -9,5 +9,9 @@ export const styles = {
 	typography: {
 		color: 'white',
 		size: 20
+	},
+	userAvatar:{
+	 marginLeft: 'auto',
+	 marginRight: '20px'
 	}
 };

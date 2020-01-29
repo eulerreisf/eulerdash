@@ -16,7 +16,9 @@ export const Header = ({ classes }) => (
 		<Typography variant='h6' className={classes.typography}>
 			Euler Dashboard
 		</Typography>
-		<UserAvatar />
+		<div className={classes.userAvatar}>
+			<UserAvatar />
+		</div>
 	</div>
 );
 
