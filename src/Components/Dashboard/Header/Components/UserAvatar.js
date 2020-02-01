@@ -1,6 +1,10 @@
 import React from 'react';
-import { Avatar } from '@material-ui/core';
+import { Avatar, IconButton } from '@material-ui/core';
 
-export const UserAvatar = () => <Avatar alt='Euler das Virgens' />;
+export const UserAvatar = () => (
+	<IconButton>
+		<Avatar alt='Euler das Virgens' src='/images/avatar/eulerAvatar.jpeg' />
+	</IconButton>
+);
 
 export default UserAvatar;
