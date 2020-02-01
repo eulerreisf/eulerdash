@@ -10,9 +10,9 @@ import Dashboard from './Components/Dashboard';
 import { styles } from './styles';
 
 export const App = ({ classes }) => (
-	<dib className={classes.root}>
+	<div className={classes.root}>
 		<Dashboard />
-	</dib>
+	</div>
 );
 
 export default withStyles(styles)(App);
