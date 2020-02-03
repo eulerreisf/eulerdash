@@ -10,9 +10,12 @@ import { withStyles } from '@material-ui/core/styles';
 
 import { styles } from './styles';
 
-export const Header = ({ classes }) => (
+export const Header = ({ classes, setSideBarStatus, sideBarStatus }) => (
 	<div className={classes.root}>
-		<MenuButton />
+		<MenuButton
+			setSideBarStatus={setSideBarStatus}
+			sideBarStatus={sideBarStatus}
+		/>
 		<Typography variant='h6' className={classes.typography}>
 			Euler Dashboard
 		</Typography>
