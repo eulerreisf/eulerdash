@@ -9,11 +9,16 @@ import Sidebar from './Sidebar';
 //Styles
 import { styles } from './styles';
 
-export const Container = ({ classes, sideBarStatus }) => (
-	<div className={classes.container}>
-		<Sidebar sideBarStatus={sideBarStatus} />
-		<div>Fazendo</div>
-	</div>
-);
+export const Container = ({ classes, sideBarStatus }) => {
+
+	const renderSidebar = () => sideBarStatus && <Sidebar />;
+	
+	return (
+		<div className={classes.container}>
+		{renderSidebar()}
+			<div>Fazendo</div>
+		</div>
+	);
+};
 
 export default withStyles(styles)(Container);
