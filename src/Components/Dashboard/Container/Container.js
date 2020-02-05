@@ -11,7 +11,7 @@ import { styles } from './styles';
 
 export const Container = ({ classes, sideBarStatus }) => {
 
-	const renderSidebar = () => sideBarStatus && <Sidebar />;
+	const renderSidebar = () => sideBarStatus && <Sidebar sideBarStatus/>;
 	
 	return (
 		<div className={classes.container}>

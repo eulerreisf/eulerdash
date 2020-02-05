@@ -14,8 +14,15 @@ export const Dashboard = ({ classes }) => {
 
 	return (
 		<div className={classes.dashboard}>
-			<Header setSideBarStatus={setSideBarStatus} sideBarStatus={sideBarStatus}/>
-			<Container sideBarStatus={sideBarStatus} />
+			<div className={classes.header}>
+				<Header
+					setSideBarStatus={setSideBarStatus}
+					sideBarStatus={sideBarStatus}
+				/>
+			</div>
+			<div className={classes.container}>
+				<Container sideBarStatus={sideBarStatus} />
+			</div>
 		</div>
 	);
 };
