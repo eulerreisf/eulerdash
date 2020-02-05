@@ -9,8 +9,12 @@ import { withStyles } from '@material-ui/core/styles';
 
 import { styles } from './styles';
 
-export const MenuButton = ({ classes }) => (
-	<IconButton arial-label='menu' className={classes.iconButton}>
+export const MenuButton = ({ classes, setSideBarStatus, sideBarStatus }) => (
+	<IconButton
+		arial-label='menu'
+		className={classes.iconButton}
+		onClick={() => setSideBarStatus(!sideBarStatus)}
+	>
 		<Menu className={classes.menu} />
 	</IconButton>
 );
