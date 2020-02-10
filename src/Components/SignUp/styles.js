@@ -2,7 +2,7 @@ export const styles = {
 	root: {
 		display: 'flex',
 		height: '100vh',
-		width: '200vh',
+		width: '100vw',
 		backgroundColor: '#040303',
 		alignItems: 'center',
 		justifyContent: 'center'
