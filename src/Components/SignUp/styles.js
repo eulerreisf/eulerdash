@@ -14,6 +14,9 @@ export const styles = {
 		backgroundColor: '#ffffff',
 		alignItems: 'center',
 		height: '453px',
-		width: '340px'
-	}
+		width: '340px',
+		justifyContent: 'center'
+	},
+	form: { marginTop: '20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexDirection: 'column' },
+	title: { display: 'flex', alignItems: 'center', justifyContent: 'center' }
 };

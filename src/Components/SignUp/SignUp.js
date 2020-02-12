@@ -31,42 +31,46 @@ export const SignUp = ({ classes }) => {
 
 	return (
 		<div className={classes.root}>
-			<form onSubmit={formik.handleSubmit} className={classes.container}>
-				<Typography>Registre-se</Typography>
-				<TextField
-					id='firstName'
-					variant='outlined'
-					label='Nome'
-					onChange={formik.handleChange}
-					onBlur={formik.handleBlur}
-					value={formik.values.firstName}
-				/>
-				<TextField
-					id='lastName'
-					variant='outlined'
-					label='Sobrenome'
-					onChange={formik.handleChange}
-					onBlur={formik.handleBlur}
-					value={formik.values.lastName}
-				/>
-				<TextField
-					id='email'
-					variant='outlined'
-					label='Email'
-					onChange={formik.handleChange}
-					onBlur={formik.handleBlur}
-					value={formik.values.email}
-				/>
-				<TextField
-					id='password'
-					type='password'
-					variant='outlined'
-					label='Senha'
-					onChange={formik.handleChange}
-					onBlur={formik.handleBlur}
-					value={formik.values.password}
-				/>
-			</form>
+			<div className={classes.container}>
+				<div className={classes.title}>
+					<Typography variant='h4'>Registre-se</Typography>
+				</div>
+				<form onSubmit={formik.handleSubmit} className={classes.form}>
+					<TextField
+						id='firstName'
+						variant='outlined'
+						label='Nome'
+						onChange={formik.handleChange}
+						onBlur={formik.handleBlur}
+						value={formik.values.firstName}
+					/>
+					<TextField
+						id='lastName'
+						variant='outlined'
+						label='Sobrenome'
+						onChange={formik.handleChange}
+						onBlur={formik.handleBlur}
+						value={formik.values.lastName}
+					/>
+					<TextField
+						id='email'
+						variant='outlined'
+						label='Email'
+						onChange={formik.handleChange}
+						onBlur={formik.handleBlur}
+						value={formik.values.email}
+					/>
+					<TextField
+						id='password'
+						type='password'
+						variant='outlined'
+						label='Senha'
+						onChange={formik.handleChange}
+						onBlur={formik.handleBlur}
+						value={formik.values.password}
+					/>
+				</form>
+			</div>
 		</div>
 	);
 };
