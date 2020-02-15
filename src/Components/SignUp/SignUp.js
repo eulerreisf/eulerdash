@@ -16,7 +16,7 @@ import { useHistory } from 'react-router-dom';
 import { styles } from './styles';
 
 export const SignUp = ({ classes }) => {
-const history = useHistory()
+	const history = useHistory();
 	return (
 		<div className={classes.root}>
 			<div className={classes.container}>
@@ -76,14 +76,14 @@ const history = useHistory()
 									className={classes.elements}
 								/>
 								<Button
+									className={classes.button}
 									variant='contained'
 									color='primary'
 									size='small'
-									startIcon={<SaveIcon />}
+									endIcon={<SaveIcon />}
 									type='submit'
-									className={classes.elements}
 								>
-									Submit
+									Salvar
 								</Button>
 							</div>
 						</Form>
