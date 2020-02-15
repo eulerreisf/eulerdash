@@ -5,7 +5,8 @@ export const styles = {
 		width: '100vw',
 		backgroundColor: '#040303',
 		alignItems: 'center',
-		justifyContent: 'center'
+		justifyContent: 'center',
+		flexDirection: 'row'
 	},
 	container: {
 		display: 'flex',
@@ -17,6 +18,13 @@ export const styles = {
 		width: '340px',
 		justifyContent: 'center'
 	},
-	form: { marginTop: '20px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexDirection: 'column' },
-	title: { display: 'flex', alignItems: 'center', justifyContent: 'center' }
+	form: {
+		marginTop: '20px',
+		display: 'flex',
+		alignItems: 'center',
+		justifyContent: '',
+		flexDirection: 'column'
+	},
+	title: { display: 'flex', alignItems: 'center', justifyContent: 'center' },
+	elements: { marginTop: '10px' }
 };

@@ -16,10 +16,10 @@ import { styles } from './styles';
 
 export const App = ({ classes }) => (
 	<div className={classes.root}>
-		<Router>
+		<Router >
 			<Switch>
 				<Route path='/signin'>
-					<SignIn />
+					<SignIn  />
 				</Route>
 				<Route path='/signup'>
 					<SignUp />
