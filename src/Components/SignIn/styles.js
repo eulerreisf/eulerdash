@@ -14,7 +14,7 @@ export const styles = {
 		marginTop: '10px',
 		backgroundColor: '#ffffff',
 		alignItems: 'center',
-		height: '453px',
+		height: '260px',
 		width: '340px',
 		justifyContent: 'center',
 		borderRadius: '20px'
@@ -28,5 +28,5 @@ export const styles = {
 	},
 	title: { display: 'flex', alignItems: 'center', justifyContent: 'center' },
 	elements: { marginTop: '10px' },
-	button: { marginTop: '30px', color: 'white', backgroundColor: 'black' }
+	button: { marginTop: '20px', color: 'white', backgroundColor: 'black' }
 };
