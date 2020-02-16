@@ -5,7 +5,7 @@ import { Field, Form, Formik } from 'formik';
 //Yup
 import * as Yup from 'yup';
 //Material
-import { Typography, withStyles, Button } from '@material-ui/core';
+import { Typography, withStyles, Button, Link } from '@material-ui/core';
 import SaveIcon from '@material-ui/icons/Save';
 import { TextField } from 'formik-material-ui';
 
@@ -84,6 +84,7 @@ export const SignUp = ({ classes }) => {
 								>
 									Salvar
 								</Button>
+								<Link href={'/signin'} variant="caption">Já sou cadastrado</Link>
 							</div>
 						</Form>
 					)}

@@ -5,7 +5,7 @@ import { Field, Form, Formik } from 'formik';
 //Yup
 import * as Yup from 'yup';
 //Material
-import { Typography, withStyles, Button } from '@material-ui/core';
+import { Typography, withStyles, Button, Link } from '@material-ui/core';
 import { KeyboardArrowRight } from '@material-ui/icons';
 import { TextField } from 'formik-material-ui';
 
@@ -60,6 +60,7 @@ export const SignIn = ({ classes }) => {
 								>
 									Entrar
 								</Button>
+								<Link href={'/signup'} variant="caption">Cadastre-se</Link>
 							</div>
 						</Form>
 					)}
