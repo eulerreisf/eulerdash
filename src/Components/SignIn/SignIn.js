@@ -53,7 +53,6 @@ export const SignIn = ({ classes }) => {
 								/>
 								<Button
 									variant='contained'
-									color='primary'
 									size='small'
 									endIcon={<KeyboardArrowRight />}
 									type='submit'

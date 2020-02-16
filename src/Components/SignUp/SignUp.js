@@ -78,7 +78,6 @@ export const SignUp = ({ classes }) => {
 								<Button
 									className={classes.button}
 									variant='contained'
-									color='primary'
 									size='small'
 									endIcon={<SaveIcon />}
 									type='submit'
