@@ -15,7 +15,6 @@ import { useHistory } from 'react-router-dom';
 
 export const UserAvatar = () => {
 	const [openMenu, setOpenMenu] = useState(false);
-
 	const history = useHistory();
 
 	const handleClickAvatar = () => setOpenMenu(true);
@@ -35,11 +34,7 @@ export const UserAvatar = () => {
 					>
 						<MenuItem onClick={handleOnCloseMenu}>Profile</MenuItem>
 						<MenuItem onClick={handleOnCloseMenu}>My account</MenuItem>
-						<MenuItem
-							onClick={()=>history.push('/signin')}
-						>
-							Logout
-						</MenuItem>
+						<MenuItem onClick={() => history.push('/signin')}>Logout</MenuItem>
 					</MenuList>
 				</ClickAwayListener>
 			)}
