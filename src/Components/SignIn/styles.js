@@ -28,5 +28,10 @@ export const styles = {
 	},
 	title: { display: 'flex', alignItems: 'center', justifyContent: 'center' },
 	elements: { marginTop: '10px' },
-	button: { marginTop: '20px', color: 'white', backgroundColor: 'black' }
+	button: {
+		marginTop: '20px',
+		color: 'white',
+		backgroundColor: 'black',
+		marginBottom: '20px'
+	}
 };
