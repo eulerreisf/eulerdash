@@ -20,7 +20,11 @@ export const SignIn = ({ classes }) => {
 	return (
 		<div className={classes.root}>
 			<div className={classes.container}>
-				<Typography variant='h6'>Login</Typography>
+				<Typography
+					variant='h6'
+				>
+					Login
+				</Typography>
 				<Formik
 					initialValues={{
 						email: '',

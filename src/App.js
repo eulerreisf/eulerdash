@@ -18,14 +18,14 @@ export const App = ({ classes }) => (
 	<div className={classes.root}>
 		<Router >
 			<Switch>
-				<Route path='/signin'>
-					<SignIn  />
+				<Route path='/dashboard'>
+					<Dashboard />
 				</Route>
 				<Route path='/signup'>
 					<SignUp />
 				</Route>
 				<Route path='/'>
-					<Dashboard />
+					<SignIn />
 				</Route>
 			</Switch>
 		</Router>

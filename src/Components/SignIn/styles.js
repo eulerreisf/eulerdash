@@ -14,7 +14,7 @@ export const styles = {
 		marginTop: '10px',
 		backgroundColor: '#ffffff',
 		alignItems: 'center',
-		height: '260px',
+		height: '400px',
 		width: '340px',
 		justifyContent: 'center',
 		borderRadius: '20px'
