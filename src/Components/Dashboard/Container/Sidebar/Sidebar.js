@@ -11,10 +11,10 @@ import {
 
 import { styles } from './styles';
 
-export const Sidebar = ({ classes, sideBarStatus }) => (
+export const Sidebar = ({ classes }) => (
 	<Drawer variant='permanent' className={classes.drawer} classes={{
-    paper: classes.drawerPaper,
-  }}>
+		paper: classes.drawerPaper,
+	}}>
 		<div className={classes.section} />
 		<List open className={classes.list} data-testid='sidebar'>
 			<ListItem button>
