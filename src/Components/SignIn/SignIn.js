@@ -21,7 +21,7 @@ export const SignIn = ({ classes }) => {
 		<div className={classes.root}>
 			<div className={classes.container}>
 				<Typography
-					variant='h6'
+					variant='h3'
 				>
 					Login
 				</Typography>
